@@ -1,5 +1,3 @@
-// ignore_for_file: prefer_const_constructors
-
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -89,9 +87,9 @@ class _HomePageState extends State<HomePage> {
                               child: CircleAvatar(
                                 radius: 22,
                                 backgroundColor: Colors.blue,
-                                backgroundImage: AssetImage("assets/cdbg.jpg"),
+                                backgroundImage:
+                                    AssetImage("assets/images/cdbg.jpg"),
                               )),
-                          // ignore: prefer_const_constructors
                           Positioned(
                               left: 19,
                               top: 19,
@@ -152,7 +150,8 @@ class _HomePageState extends State<HomePage> {
                                       borderRadius: BorderRadius.circular(5),
                                       color: Colors.black,
                                       image: DecorationImage(
-                                          image: AssetImage("assets/1.jpg"),
+                                          image:
+                                              AssetImage("assets/images/1.jpg"),
                                           fit: BoxFit.cover)),
                                 ),
                                 title: Text("Let me Love you",
@@ -188,7 +187,8 @@ class _HomePageState extends State<HomePage> {
                                       borderRadius: BorderRadius.circular(5),
                                       color: Colors.black,
                                       image: DecorationImage(
-                                          image: AssetImage("assets/6.jpg"),
+                                          image:
+                                              AssetImage("assets/images/6.jpg"),
                                           fit: BoxFit.cover)),
                                 ),
                                 title: Text("Love me like you do",
@@ -224,7 +224,8 @@ class _HomePageState extends State<HomePage> {
                                       borderRadius: BorderRadius.circular(5),
                                       color: Colors.black,
                                       image: DecorationImage(
-                                          image: AssetImage("assets/8.jpg"),
+                                          image:
+                                              AssetImage("assets/images/8.jpg"),
                                           fit: BoxFit.cover)),
                                 ),
                                 title: Text("Don't Let me down",
@@ -260,7 +261,8 @@ class _HomePageState extends State<HomePage> {
                                       borderRadius: BorderRadius.circular(5),
                                       color: Colors.black,
                                       image: DecorationImage(
-                                          image: AssetImage("assets/9.jpg"),
+                                          image:
+                                              AssetImage("assets/images/9.jpg"),
                                           fit: BoxFit.cover)),
                                 ),
                                 title: Text("Take me with you",
@@ -296,7 +298,8 @@ class _HomePageState extends State<HomePage> {
                                       borderRadius: BorderRadius.circular(5),
                                       color: Colors.black,
                                       image: DecorationImage(
-                                          image: AssetImage("assets/7.jpg"),
+                                          image:
+                                              AssetImage("assets/images/7.jpg"),
                                           fit: BoxFit.cover)),
                                 ),
                                 title: Text("Feel Me",
@@ -352,8 +355,8 @@ class _HomePageState extends State<HomePage> {
                                             borderRadius:
                                                 BorderRadius.circular(25),
                                             image: DecorationImage(
-                                                image:
-                                                    AssetImage("assets/2.jpg"),
+                                                image: AssetImage(
+                                                    "assets/images/2.jpg"),
                                                 fit: BoxFit.cover)),
                                       ),
                                     ),
@@ -378,8 +381,8 @@ class _HomePageState extends State<HomePage> {
                                             borderRadius:
                                                 BorderRadius.circular(25),
                                             image: DecorationImage(
-                                                image:
-                                                    AssetImage("assets/3.jpg"),
+                                                image: AssetImage(
+                                                    "assets/images/3.jpg"),
                                                 fit: BoxFit.cover)),
                                       ),
                                     ),
@@ -404,8 +407,8 @@ class _HomePageState extends State<HomePage> {
                                             borderRadius:
                                                 BorderRadius.circular(25),
                                             image: DecorationImage(
-                                                image:
-                                                    AssetImage("assets/4.jpg"),
+                                                image: AssetImage(
+                                                    "assets/images/4.jpg"),
                                                 fit: BoxFit.cover)),
                                       ),
                                     ),
@@ -437,8 +440,8 @@ class _HomePageState extends State<HomePage> {
                                             borderRadius:
                                                 BorderRadius.circular(25),
                                             image: DecorationImage(
-                                                image:
-                                                    AssetImage("assets/5.jpg"),
+                                                image: AssetImage(
+                                                    "assets/images/5.jpg"),
                                                 fit: BoxFit.cover)),
                                       ),
                                     ),
@@ -463,8 +466,8 @@ class _HomePageState extends State<HomePage> {
                                             borderRadius:
                                                 BorderRadius.circular(25),
                                             image: DecorationImage(
-                                                image:
-                                                    AssetImage("assets/12.jpg"),
+                                                image: AssetImage(
+                                                    "assets/images/12.jpg"),
                                                 fit: BoxFit.cover)),
                                       ),
                                     ),
@@ -489,8 +492,8 @@ class _HomePageState extends State<HomePage> {
                                             borderRadius:
                                                 BorderRadius.circular(25),
                                             image: DecorationImage(
-                                                image:
-                                                    AssetImage("assets/14.jpg"),
+                                                image: AssetImage(
+                                                    "assets/images/14.jpg"),
                                                 fit: BoxFit.cover)),
                                       ),
                                     ),
@@ -522,8 +525,8 @@ class _HomePageState extends State<HomePage> {
                                             borderRadius:
                                                 BorderRadius.circular(25),
                                             image: DecorationImage(
-                                                image:
-                                                    AssetImage("assets/11.jpg"),
+                                                image: AssetImage(
+                                                    "assets/images/11.jpg"),
                                                 fit: BoxFit.cover)),
                                       ),
                                     ),
@@ -548,8 +551,8 @@ class _HomePageState extends State<HomePage> {
                                             borderRadius:
                                                 BorderRadius.circular(25),
                                             image: DecorationImage(
-                                                image:
-                                                    AssetImage("assets/10.jpg"),
+                                                image: AssetImage(
+                                                    "assets/images/10.jpg"),
                                                 fit: BoxFit.cover)),
                                       ),
                                     ),
@@ -574,8 +577,8 @@ class _HomePageState extends State<HomePage> {
                                             borderRadius:
                                                 BorderRadius.circular(25),
                                             image: DecorationImage(
-                                                image:
-                                                    AssetImage("assets/13.jpg"),
+                                                image: AssetImage(
+                                                    "assets/images/13.jpg"),
                                                 fit: BoxFit.cover)),
                                       ),
                                     ),
