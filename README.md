@@ -1,5 +1,5 @@
 # Music_App_Playlist
-This is Playlist theme model &amp; here used visibility widget..This is Playlist theme model &amp; here used visibility widget..
+This is Playlist theme model &amp; here used visibility widget....
 
 Output
 
